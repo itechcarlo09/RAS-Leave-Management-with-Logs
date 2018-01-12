@@ -221,7 +221,7 @@ namespace RAS_Leave_Management
 
         public string ApplicationID
         {
-            get { return "RAS Leave Management"; }
+            get { return "RAS Leave Management with Logs"; }
         }
 
         public Assembly ApplicationAssembly
