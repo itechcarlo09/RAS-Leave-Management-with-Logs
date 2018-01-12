@@ -2,7 +2,7 @@
 <sharpUpdate>
 	<update appID="RAS%Leave%Management">
 		<version>2.0.0.0</version>
-		<url>https://raw.githubusercontent.com/itechcarlo09/RAS-Leave-Management-with-Logs/new/RAS%20Leave%20Management/bin/Debug/RAS%Leave%Management.exe</url>
+		<url>https://raw.githubusercontent.com/itechcarlo09/RAS-Leave-Management-with-Logs/new/RAS%20Leave%20Management/bin/Debug/RAS Leave Management.exe</url>
 		<fileName>RAS%Leave%Management.exe</fileName>
 		<md5>18e80ce5109f4701830a9570d78858c8</md5>
 		<description>add time</description>
