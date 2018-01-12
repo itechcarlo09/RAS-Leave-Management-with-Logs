@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<sharpUpdate>
+	<update appID="RAS Leave Management">
+		<version>3.0.0.0</version>
+		<url>https://github.com/itechcarlo09/sampleupdater/blob/master/SharpUpdate-master/TestApp/bin/Debug/TestApp.exe</url>
+		<fileName>RAS Leave Management.exe</fileName>
+		<md5>806fd82217dea6dd1b8045e3546a19cf</md5>
+		<description>Initial Update</description>
+		<launchArgs></launchArgs>
+	</update>
+</sharpUpdate>

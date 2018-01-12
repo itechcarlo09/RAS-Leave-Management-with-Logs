@@ -5,24 +5,28 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SharpUpdate;
 
 namespace RAS_Leave_Management
 {
-    public partial class Employee : MaterialSkin.Controls.MaterialForm
+    public partial class Employee : MaterialSkin.Controls.MaterialForm, ISharpUpdatable
     {
         SqlConnection cn = new SqlConnection(@"Data Source=ras-leave-management.cz3gzuguht1n.ap-southeast-1.rds.amazonaws.com;Initial Catalog=RASLeaveMngt;User ID=master;Password=rodandstaff2017");
 
         List<int> respondID = new List<int>();
         Timer t = new Timer();
         int logid;
+        private SharpUpdater updater;
 
         public Employee()
         {
             InitializeComponent();
             gridLeave.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            updater = new SharpUpdater(this);
         }
 
         private void Employee_Load(object sender, EventArgs e)
@@ -98,6 +102,7 @@ namespace RAS_Leave_Management
             if (Confirm == DialogResult.Yes)
             {
                 Login log = new Login();
+                updater.DoUpdate();
                 log.Show();
                 this.Close();
             }
@@ -207,5 +212,37 @@ namespace RAS_Leave_Management
             days_available();
             GetLeaveUpdate();
         }
+
+        #region SharpUpdate
+        public string ApplicationName
+        {
+            get { return "RAS Leave Management"; }
+        }
+
+        public string ApplicationID
+        {
+            get { return "RAS Leave Management"; }
+        }
+
+        public Assembly ApplicationAssembly
+        {
+            get { return Assembly.GetExecutingAssembly(); }
+        }
+
+        public Icon ApplicationIcon
+        {
+            get { return this.Icon; }
+        }
+
+        public Uri UpdateXmlLocation
+        {
+            get { return new Uri("https://raw.githubusercontent.com/henryxrl/SharpUpdate/master/project.xml"); }
+        }
+
+        public Form Context
+        {
+            get { return this; }
+        }
+        #endregion
     }
 }

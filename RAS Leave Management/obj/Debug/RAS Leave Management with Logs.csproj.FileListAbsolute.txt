@@ -20,3 +20,5 @@ C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with L
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\RAS Leave Management\obj\Debug\RAS_Leave_Management.TopManagement.resources
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\RAS Leave Management\obj\Debug\RAS_Leave_Management.UpdateInformation.resources
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\RAS Leave Management\obj\Debug\RAS Leave Management with Logs.csproj.GenerateResource.Cache
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\RAS Leave Management\bin\Debug\SharpUpdate.dll
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\RAS Leave Management\bin\Debug\SharpUpdate.pdb
