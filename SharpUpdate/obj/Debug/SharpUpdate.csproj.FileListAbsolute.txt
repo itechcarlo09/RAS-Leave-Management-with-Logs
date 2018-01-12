@@ -28,3 +28,12 @@ C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with L
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\SharpUpdate\obj\Debug\SharpUpdate.csproj.GenerateResource.Cache
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\SharpUpdate\obj\Debug\SharpUpdate.dll
 C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management with Logs\SharpUpdate\obj\Debug\SharpUpdate.pdb
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\bin\Debug\SharpUpdate.dll
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\bin\Debug\SharpUpdate.pdb
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.Properties.Resources.resources
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.SharpUpdateAcceptForm.resources
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.SharpUpdateDownloadForm.resources
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.SharpUpdateInfoForm.resources
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.csproj.GenerateResource.Cache
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.dll
+C:\Users\ISEND\Documents\Visual Studio 2013\Projects\RAS Leave Management\SharpUpdate\obj\Debug\SharpUpdate.pdb
