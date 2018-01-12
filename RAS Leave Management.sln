@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAS Leave Management with Logs", "RAS Leave Management\RAS Leave Management with Logs.csproj", "{0819DC11-6E34-46A4-A114-5643582FAA35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAS Leave Management", "RAS Leave Management\RAS Leave Management.csproj", "{0819DC11-6E34-46A4-A114-5643582FAA35}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "12-20-2017", "12-20-2017\12-20-2017.isproj", "{3CBF5100-A312-4726-91BC-B4CC0CA612F5}"
 	ProjectSection(ProjectDependencies) = postProject
