@@ -98,11 +98,11 @@ namespace RAS_Leave_Management
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
+            updater.DoUpdate();
             var Confirm = MessageBox.Show("Are you sure you want to log out?", "Log Out", MessageBoxButtons.YesNo);
             if (Confirm == DialogResult.Yes)
             {
                 Login log = new Login();
-                updater.DoUpdate();
                 log.Show();
                 this.Close();
             }
