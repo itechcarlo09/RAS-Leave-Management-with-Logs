@@ -99,7 +99,6 @@ namespace SharpUpdate
             {
                 string currentPath = this.applicationInfo.ApplicationAssembly.Location;
                 string newPath = Path.GetDirectoryName(currentPath) + "\\" + update.FileName;
-
                 // "Install" it
                 UpdateApplication(form.TempFilePath, currentPath, newPath, update.LaunchArgs);
 

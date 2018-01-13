@@ -31,6 +31,7 @@ namespace RAS_Leave_Management
 
         private void Employee_Load(object sender, EventArgs e)
         {
+            MessageBox.Show(DateTime.Now.ToString("h:mm"));
             month();
             cn.Close();
             days_available();
